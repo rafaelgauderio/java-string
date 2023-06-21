@@ -41,11 +41,6 @@ public class ProgramSplitJoin {
 		Product produto = new Product(Long.parseLong(productInformation[0]),productInformation[1],Double.parseDouble(productInformation[2]));
 		System.out.println(produto);
 		
-		
-		
-		
-		
-		
 	}
 
 }
