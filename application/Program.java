@@ -45,6 +45,17 @@ public class Program {
 		System.out.println("contains Claudia " + b2);
 		System.out.println("endsWith . " + b3);
 		System.out.println("startsWith Rafael " + b4);
+		System.out.println("is empty? " + original.isEmpty());
+		
+		String empty = null;
+		String empty2 = "";
+		String blank = "                   ";
+		
+		System.out.println("Refer to no string (null) =  " + empty);
+		System.out.println("is empty? " + empty2.isEmpty());
+		System.out.println("is blank? " + blank.isBlank());
+		
+		
 
 	}
 
